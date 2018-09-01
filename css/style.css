@@ -36,7 +36,7 @@ header {
     color: grey;
     text-decoration: none;
     padding: 5px 15px;
-    font-family: 'Monstserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 25px;
     font-weight: bold;
 }
@@ -92,6 +92,23 @@ header {
     position: absolute;
     top: 325px;
     left: 200px;
+}
+
+/* Product Intro Section */
+
+#product-intro
+{ 
+    height: 50vh;
+    max-width: 100%;
+}
+
+#product-intro .row h1
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: center;
+    top: 20px;
 }
 
 /* Product Selection - Gallery Section */
