@@ -1,16 +1,130 @@
 * {margin:0; padding:0;}
 
-#form
+/* Header Section */
+header {
+    height: 8vh;
+    min-height: 50px;
+    background: #efecec;
+    position: fixed;
+    width: 100%;
+    z-index: 5000;
+}
+
+.nav-bar
 {
-    margin: 0 auto;
-    width: 50px;
-    padding: 3.5em;
-    border: 1px solid #CCC;
-    border-radius: 1em;
-    -webkit-border-radius: 1em;
-    -moz-border-radius: 1em;
-    -ms-border-radius: 1em;
-    -o-border-radius: 1em;
-    background-color: lightcyan;
-    margin-bottom: 50px;
+    list-style: none;
+    padding: 0px 20px 0 20px;
+}
+
+.nav-bar ul 
+{
+    text-align: center;
+    margin-top: -55px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px; 
+}
+
+.nav-bar li 
+{
+    display: inline;
+    margin-right: 25px;
+}
+
+.nav-bar li a 
+{
+    color: grey;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-family: 'Monstserrat', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo img {
+    padding-left: 8px;
+    padding-top: 5px;
+    width: 55px;
+    height: 45px;
+    margin-left: 8px;
+    radius: 50%;
+}
+
+/* Welcome Section */
+
+#welcome 
+{
+    height: 100vh;
+    background-image: url(../img/hphone.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#welcome .container h1
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+#welcome .container h2 
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+}
+
+#welcome .container h3 
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    font-weight: lighter;
+    color: white;
+    position: absolute;
+    top: 325px;
+    left: 200px;
+}
+
+/* Product Selection - Gallery Section */
+.row 
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column 
+{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img 
+{
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
 }

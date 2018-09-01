@@ -1,24 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>B&O Headphon</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">   
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>B&O Headphones</title>
 </head>
+
 <body>
     <header id="header">
-        <img id="header-img" src="logo.png" alt="">
-      <nav class="nav-bar">
-          <ul>
-            <li class="active"><a class="nav-link" href="#">Home</a></li>
-            <li ><a class="nav-link" href="#products">Products</a></li>
-            <li><a class="nav-link" href="#about">About</a></li>
-            <li><a class="nav-link" href="#contact">Contact</a></li>
-          </ul>
-      </nav>
+        <div class="logo">
+            <a href="#"><img id="header-img" src="img/logo.png" alt=""></a> 
+        </div>
+       
+        <nav class="nav-bar">
+            <ul>
+                <li class="active"><a class="nav-link" href="#">Home</a></li>
+                <li><a class="nav-link" href="#products">Products</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    
+
+    <section id="welcome">
+        <div class="container">
+            <h1>B&O</h1>
+            <h2>Headphones</h2>
+            <h3>Luxurious wireless headphones <br>
+                with Bang & Olufsen Signature Sound</h3>
+        </div>
+        
+    </section>
+
+    <section id="product-info">
+        <div class="container-product">
+            <div class="column-image">
+            </div>
+            <div class="column-info">
+
+            </div>
+        </div>
+    </section>
+
+    <section id="product-selection">
+        <div class="product-gallery">
+            <div class="row">
+                <div class="column">
+                    <img src="img/hphone1.jpg" alt="">
+                    <img src="img/hphone2.jpg" alt="">
+                    <img src="img/hphone3.jpg" alt="">
+                    <img src="img/hphone4.jpg" alt="">
+                </div>
+                <div class="column">
+                    <img src="img/hphone5.jpg" alt="">
+                    <img src="img/hphone6.jpg" alt="">
+                    <img src="img/hphone7.jpg" alt="">
+                    <img src="img/hphone8.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="video">
         <div class="container-vid">
             <video src="https://youtu.be/aVtURg0oUUk"></video>
@@ -27,9 +73,11 @@
 
     <section>
         <form id="form" action=""></form>
-            <label for="email">Email</label>
-            <input type="email" id="email" pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*$"> placeholder="Enter your email">
-<input type="submit" id="submit" name="Send" onlick="https://www.freecodecamp.com/email-submit">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email_ad" required pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*$"
+            placeholder=" harry.potter@hogwarts.magic">
+        <input type="submit" id="submit" name="Send" onlick="https://www.freecodecamp.com/email-submit">
     </section>
 </body>
+
 </html>
