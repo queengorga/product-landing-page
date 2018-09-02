@@ -99,16 +99,36 @@ header {
 #product-intro
 { 
     height: 50vh;
-    max-width: 100%;
+    width: 100%;
+
 }
 
-#product-intro .row h1
+.intro-title h1
 {
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     font-weight: lighter;
     text-align: center;
-    top: 20px;
+    position: relative;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+  
+#product-intro .row
+{
+    display: inline-block;
+    margin: 0 5px 5px 150px;
+    padding: 10px
+}
+
+#product-intro .column 
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 25px 40px;
 }
 
 /* Product Selection - Gallery Section */
