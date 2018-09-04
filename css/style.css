@@ -155,6 +155,88 @@ header {
     text-align: center;
 }
 
+
+.container-product .column 
+{
+    float: left;
+    width: 33.33%;
+    height: 650px;
+    margin-top: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(45%,-50%);
+    -webkit-transform: translate(45%,-50%);
+    -moz-transform: translate(45%,-50%);
+    -ms-transform: translate(45%,-50%);
+    -o-transform: translate(45%,-50%);
+}
+
+.container-product .column h4
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.container-product .column p
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    margin-top: 2px;
+    margin-left: 30px;
+}
+
+.container-product ul
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 75px;
+}
+
+.container-product .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container-product img
+{
+    margin-left: 45px;
+    height: 320px;
+    width: 300px;
+}
+
+.container-product h3
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.container-product button
+{
+    font-family: 'Railway', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1.5px solid white;
+    border-radius: 40px;
+    background: white;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 110px;
+    padding: 5px 15px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
 /* Product Selection - Gallery Section */
 .row 
 {
