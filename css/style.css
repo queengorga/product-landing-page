@@ -161,7 +161,7 @@ header {
     float: left;
     width: 33.33%;
     height: 650px;
-    margin-top: 350px;
+    margin-top: 400px;
     top: 50%;
     left: 50%;
     transform: translate(45%,-50%);
@@ -211,6 +211,21 @@ header {
     width: 300px;
 }
 
+.container-product img:hover
+{
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+    transform: scale(1.025);
+    -webkit-transform: scale(1.025);
+    -moz-transform: scale(1.025);
+    -ms-transform: scale(1.025);
+    -o-transform: scale(1.025);
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
 .container-product h3
 {
     font-family: 'Montserrat', sans-serif;
@@ -224,17 +239,28 @@ header {
     font-family: 'Railway', sans-serif;
     font-size: 13px;
     font-weight: bold;
-    border: 1.5px solid white;
+    border: 1.5px solid lightgrey;
     border-radius: 40px;
     background: white;
     text-transform: uppercase;
     margin-top: 10px;
-    margin-left: 110px;
+    margin-left: 115px;
     padding: 5px 15px;
     -webkit-border-radius: 40px;
     -moz-border-radius: 40px;
     -ms-border-radius: 40px;
     -o-border-radius: 40px;
+}
+
+.column button:hover
+{
+    color: darkslategray;
+    transition: .5s ease-in;
+    background-color:#D5DBDB;
+    -webkit-transition: .5s ease-in;
+    -moz-transition: .5s ease-in;
+    -ms-transition: .5s ease-in;
+    -o-transition: .5s ease-in;
 }
 
 /* Product Selection - Gallery Section */
