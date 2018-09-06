@@ -110,7 +110,7 @@ header {
     font-weight: lighter;
     text-align: center;
     position: relative;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-left: 450px;
 }
   
@@ -260,6 +260,7 @@ header {
     -moz-transition: .5s ease-in;
     -ms-transition: .5s ease-in;
     -o-transition: .5s ease-in;
+    border-color: white;
 }
 
 .row 
@@ -342,8 +343,10 @@ header {
 
 #video
 {
-    height: 150vh;
+    height: 350vh;
     width: 100%;
+    display: flex;
+    flex-flow: column;
 }
 
 .container-vid .title
@@ -357,22 +360,19 @@ header {
     text-align: center;
 }
 
-.container-vid .row
-{
-    margin-top: 10px;
-    transform: translate(5%,5%);
-    -webkit-transform:;
-    -moz-transform:;
-    -ms-transform:;
-    -o-transform:;
-}
-
 .container-vid .column
 {
     max-width: 45%;
     padding: 0 4px;
-    margin: 2px;
+    margin: 15px 2px;
     height: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(10%,10%);
+    -webkit-transform: translate(10%,10%);
+    -moz-transform: translate(10%,10%);
+    -ms-transform: translate(10%,10%);
+    -o-transform: translate(10%,10%);
 }
 
 .container-vid h1
@@ -386,7 +386,7 @@ header {
 .container-vid p
 {
     font-family: 'Raleway', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     color: white;
     text-align: left;
     margin: 20px;
@@ -407,7 +407,7 @@ header {
 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
-    font-size: 175px;
+    font-size: 185px;
     color: white;
     text-align: center;
 }
