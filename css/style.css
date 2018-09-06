@@ -98,7 +98,7 @@ header {
 
 #product-intro
 { 
-    height: 45vh;
+    height: 40vh;
     width: 100%;
 
 }
@@ -116,12 +116,11 @@ header {
   
 .column-container div
 {
-    column-count: 2;
     display: inline-flex;
-    margin: -15px auto;
+    margin: 5px auto;
     padding: 15px;
     top: 10%;
-    left: 80%;
+    left: 40%;
     transform: translate(55%,20%);
     -webkit-transform: translate(55%,20%);
     -moz-transform: translate(55%,20%);
@@ -320,7 +319,7 @@ header {
 {
     column-count: 2;
     display: inline-flex;
-    margin: -15px auto;
+    margin: 15px auto;
     padding: 15px;
     top: 10%;
     left: 80%;
@@ -343,16 +342,107 @@ header {
 
 #video
 {
-    height: 100vh;
+    height: 150vh;
     width: 100%;
+}
+
+.container-vid .title
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: black;
+    font-weight: lighter;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-align: center;
+}
+
+.container-vid .row
+{
+    margin-top: 10px;
+    transform: translate(5%,5%);
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
+}
+
+.container-vid .column
+{
+    max-width: 45%;
+    padding: 0 4px;
+    margin: 2px;
+    height: 700px;
 }
 
 .container-vid h1
 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
-    font-weight: lighter;
-    text-decoration: underline;
-    text-underline-position: under;
+    font-size: 30px;
+    color: white;
+    margin: 20px 0 0 20px;
+}
+
+.container-vid p
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: left;
+    margin: 20px;
+    padding-top: 45px;
+    line-height: 30px;
+}
+
+.container-vid h2 
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: white;
+    margin: 120px 0 0 20px;
     text-align: center;
+}
+
+.container-vid h3 
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 175px;
+    color: white;
+    text-align: center;
+}
+
+.container-vid a
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-left:-100px;
+}
+
+.container-vid h4
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container-vid button 
+{
+    font-family: 'Railway', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1.5px solid lightgrey;
+    border-radius: 40px;
+    background: white;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 275px;
+    padding: 5px 25px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
