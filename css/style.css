@@ -122,10 +122,10 @@ header {
     top: 10%;
     left: 40%;
     transform: translate(60%,20%);
-    -webkit-transform: translate(60%,20%);
-    -moz-transform: translate(60%,20%);
-    -ms-transform: translate(60%,20%);
-    -o-transform: translate(60%,20%);
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
 }
 
 .column-container .column p 
@@ -165,10 +165,6 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(15%,-50%);
-    -webkit-transform: translate(15%,-50%);
-    -moz-transform: translate(15%,-50%);
-    -ms-transform: translate(15%,-50%);
-    -o-transform: translate(15%,-50%);
 }
 
 .container-product .column h4
@@ -431,7 +427,7 @@ header {
     margin-top: 20px;
 }
 
-.container-vid button 
+.container-vid .column button 
 {
     font-family: 'Railway', sans-serif;
     font-size: 13px;
@@ -443,35 +439,61 @@ header {
     margin-top: 10px;
     margin-left: 270px;
     padding: 5px 25px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
 }
 
 /* Contact Section */
 
-#contact .container
+.container-contact
 {
-    height: 80vh;
+    height: 95vh;
     width: 100%;
     background: lightgray;
 }
 
-.container label
+.container-contact .column div
+{
+    float: left;
+    width: 15%;
+    top: 50%;
+    left: 50%;
+    transform: translate(5%, -50%);
+}
+
+.container-contact .column
+{
+    padding-left: 25px;
+    height: 450px;
+    margin-top: 125px;
+    top: 50%;
+    left: 50%;
+    transform: translate(7%, -25%);
+}
+
+.container-contact label
 {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-weight: bold;
-    margin-left: 75px;
-    padding-top: 80px;
+    color: slategray;
+    margin-left: 35px;
+    padding-top: 90px;
+    padding-bottom: 25px;
+    margin-top: 20px;
 }
 
-.container input[type=email]
+.container-contact input[type=text]
 {
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
     font-size: 18px;
-    margin-left: 75px;
+    margin-left: 35px;
     margin-top: 5px;
     height: 30px;
-    width: 300px;
+    width: 350px;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -479,12 +501,33 @@ header {
     -o-border-radius: 4px;
 }
 
-.container input[type=submit]
+::placeholder
+{
+    color: lightgrey;
+}
+
+.container-contact input[type=email] 
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    margin-left: 35px;
+    margin-top: 5px;
+    height: 30px;
+    width: 350px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.container-contact input[type=submit]
 {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 15px;
-    margin-left: 75px;
+    margin-left: 35px;
     margin-top: 10px;
     border-radius: 30px;
     -webkit-border-radius: 30px;
@@ -496,7 +539,7 @@ header {
     color: white;
 }
 
-.container input[type=submit]:hover
+.container-contact input[type=submit]:hover
 {
     border: 1.5 solid slategray;
     color: black;
@@ -508,15 +551,80 @@ header {
     -o-transition: .5s ease-in-out;
 }
 
-#contact h1
+textarea
+{
+    font-family: 'Raleway',    sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    margin-left: 35px;
+    margin-top: 5px;
+    height: 150px;
+    width: 350px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.container-contact .container-title h1
 {
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
+    text-align: center;
     color: slategray;
     font-size: 50px;
-    padding: 50px 0 0 50px;
+    padding: 80px 0 10px 0px;
 }
 
+.container-contact .column img
+{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+
+.container-contact .column h1
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    margin-top: 45px;
+    text-align: center;
+}
+.container-contact .column p
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    color: white;
+    font-size: 25px;
+    padding: 25px;
+    text-align:center;
+}
+
+.container-contact button
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    background: gray;
+    font-weight: bold;
+    border-radius: 40px;
+    height: 35px;
+    width: 355px;
+    margin-left: 50px;
+}
+
+.container-contact button:hover
+{
+    background: darkgrey;
+    color: white;
+    transition: .5s ease-in-out;
+}
 /* Footer */
 footer {
     background: darkslategray;
@@ -526,6 +634,7 @@ footer {
 .container-footer p {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    font-size: 20px;
     color: white;
     text-align: center;
     padding: 10px;

@@ -176,29 +176,45 @@
     </section>
 
     <section id="contact">
-        <div class="container">
-            <h1>B&O Customer Service</h1>
-        <form id="form" action=""></form><br>
-        <label for="name">Name</label><br>
-        <input type="text"><br>
-        <label for="email">Email</label><br>
-        <input type="email" id="email" name="email_ad" required pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*$"
-            placeholder=" claire.fraser@sassenach.outlander"><br>
-        <label for="message"></label><br>
-        <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
-        <input type="submit" id="submit" name="Send" onlick="https://www.freecodecamp.com/email-submit">
-        </div>
-        <div class="container-social">
-
-
-        </div>
+        <div class="container-contact">
+            <div class="container-title">
+                <h1>B&O Customer Service</h1>
+            </div>
+          <div class="row">
+            <div class="column" style="background-color: white; width:1000px;">
+                <form id="form" action=""></form><br>
+                <label for="name">Name</label><br>
+                <input type="text" required placeholder=" Claire Fraser"><br>
+                <br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email_ad" required pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*$"
+                    placeholder=" claire.fraser@sassenach.outlander"><br>
+                <br>
+                <label for="message">Message</label><br>
+                <textarea name="message" required id="message" cols="30" rows="10" placeholder=" How can we help you?"></textarea><br>
+                <input type="submit" id="submit" name="Send" onclick="https://www.freecodecamp.com/email-submit" value="Send">
+            </div>
+            <div class="column" style="background-color: darkgrey;">
+                   <h1><img src="img/phone.png" alt=""> 1-800-143-1434</h1>
+                    <br>
+                    <p>Mon-Friday : 8am-5pm PST</p>
+                    <p>Saturday: 9am-4pm PST</p>
+                    <p>Closed: Sunday</p>
+            </div>
+            <div class="column" style="background-color: darkslategray; color: white; font-family: 'Raleway', sans-serif; font-size:25px;text-align: left">
+                    <h1>Support</h1>
+                    <p>Our product support site offers the tools and information you need to ensure the lasting value of your B&O®
+                    products.</p>
+                    <button>Go to Product Support</button>
+            </div>
+          </div>
+        </div>    
     </section>
 
     <footer>
         <div class="container-footer">
-            <p>Victoria Allen Copyright &copy; 2018 | FCC Product Landing Page Project</p>
+            <p>Victoria Allen | Copyright &copy; 2018 | FCC Product Landing Page Project</p>
         </div>
-        
     </footer>
 </body>
 
