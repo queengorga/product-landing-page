@@ -48,7 +48,6 @@ header {
     width: 55px;
     height: 45px;
     margin-left: 2em;
-    border-radius: 50%;
 }
 
 /* Welcome Section */
@@ -141,7 +140,7 @@ header {
 
 #product-info
 {
-    height: 100vh;
+    height: 90vh;
     width: 100%;
 }
 
@@ -444,17 +443,17 @@ header {
     margin-top: 10px;
     margin-left: 310px;
     padding: 5px 25px;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
 }
 
 /* Contact Section */
 
 .container-contact
 {
-    height: 95vh;
+    height: 72vh;
     width: 100%;
     background: lightgray;
 }
@@ -463,9 +462,13 @@ header {
 {
     float: left;
     width: 15%;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(5%, -50%);
+    -webkit-transform: translate(5%, -50%);
+    -moz-transform: translate(5%, -50%);
+    -ms-transform: translate(5%, -50%);
+    -o-transform: translate(5%, -50%);
 }
 
 .container-contact .column
@@ -476,6 +479,10 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(7%, -25%);
+    -webkit-transform: translate(7%, -25%);
+    -moz-transform: translate(7%, -25%);
+    -ms-transform: translate(7%, -25%);
+    -o-transform: translate(7%, -25%);
 }
 
 .container-contact label
@@ -599,7 +606,7 @@ textarea
     font-weight: bold;
     color: white;
     font-size: 30px;
-    margin-top: 45px;
+    margin-top: 55px;
     text-align: center;
 }
 .container-contact .column p
@@ -618,16 +625,22 @@ textarea
     font-size: 18px;
     background: gray;
     font-weight: bold;
+    color: white;
     border-radius: 40px;
     height: 35px;
     width: 355px;
-    margin-left: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
 }
 
 .container-contact button:hover
 {
-    background: darkgrey;
-    color: white;
+    background: lightgrey;
+    color: darkslategray;
     transition: .5s ease-in-out;
 }
 /* Footer */
@@ -639,8 +652,8 @@ footer {
 .container-footer p {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 12px;
 }
